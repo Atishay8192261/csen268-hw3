@@ -1,0 +1,22 @@
+name: book_club
+description: CSEN 268 Homework 3 Book Club app using a Cubit.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/books/
