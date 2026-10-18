@@ -14,6 +14,12 @@ class BookDetailView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Book Detail'),
+        actions: const [
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16),
+            child: Icon(Icons.account_circle_outlined),
+          ),
+        ],
         leading: IconButton(
           tooltip: 'Back to books',
           icon: const Icon(Icons.arrow_back),
