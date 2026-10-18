@@ -21,10 +21,6 @@ class HomePage extends StatelessWidget {
         builder: (context, state) {
           // choose the view from the current state
           switch (state) {
-            case HomeInitial _:
-              return const Scaffold(
-                body: Center(child: CircularProgressIndicator()),
-              );
             case BookList _:
               // create the view again so the chips update
               return BookListView();

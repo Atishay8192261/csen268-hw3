@@ -7,7 +7,7 @@ part 'home_state.dart';
 enum SortType { author, title }
 
 class HomeCubit extends Cubit<HomeState> {
-  HomeCubit() : super(HomeInitial());
+  HomeCubit() : super(BookList());
 
   // start with an empty list
   List<Book> bookList = [];
